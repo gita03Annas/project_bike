@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-day_df=pd.read_csv(r'https://raw.githubusercontent.com/gita03Annas/project_bike/main/Dashboard/day.csv')
+day_df=pd.read_csv('https://raw.githubusercontent.com/gita03Annas/project_bike/main/Dashboard/day.csv')
 print(day_df.head(10))
 
 # Set style seaborn
